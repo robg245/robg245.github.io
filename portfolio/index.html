@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!--Head-->
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width"/>
+        <title>Robert Guerrero</title>
+        <link rel="stylesheet" type="text/css" href="./stylesheet/portfolio.css">
+    
+        <!--Body-->
+        <body class="Background">
+            <!--Navbar-->
+            <div class="Navbar">
+                <a class="active" href="#Home">Home</a>
+                <a href="#about">About</a>
+                <a href="#gitHub">Github</a>
+                <a href="#Contact">Contact</a>
+            </div>
+            <!--Breaks inserted to add space between navbar and the first heading-->
+            <br>
+            <br>
+            <!--background Video-->
+            <div id="Home">
+                <video autoplay muted loop id="Typing_Video">
+                <!--Display message if video fails to run-->
+                Your browswer does not support HTML5 video.
+                </video>
+            </div>
+            <!--Video text-->
+            <div class="Video_Text">
+                <h1 class="white-text">Robert's Portfolio</h1>
+                <strong>
+                    <p class="center">
+                        <q>The computer programmer is a creator of universer for which he alone is the lawgiver.
+                            <br>No playwright, no stage director, no emperor, however powerful, has ever exercised such absolute authority to arrange a stage or 
+                            <br>field of battle and to command such unswervingly dutiful actors or troops.
+                            </q>
+                            <br> -Joseph WeizenBaum
+                            <br>
+                            <br>My name is Robert Guerrero. Welcome to my portfolio website. On it, I will tell you about my background and experience.
+                            <br>
+                            <br>Thank you for stopping by and enjoy!
+                    </p>
+                </strong>
+            </div>
+
+            <!--About section-->
+            <div class="Row" id="about">
+                <!--Left Column-->
+                <div class="Column_2">
+                    <img src="./images/pexels-anna-nekrashevich-8993802.jpg" alt="Replace with your own image and description">
+                </div>
+                <!--Right Column-->
+                <div class="Clumn_1">
+                    <h1>About</h1>
+                    <p>I am a software developer who loves to code! I like gaming and traveling.
+                    <br>
+                    <br>I am a full stack developer and would love to work with you on your project. <a href="#Contact">Contact</a> me below!
+                    </p>
+                </div>
+            </div>
+            <!--GitHub section-->
+            <div class="Column_1">
+                <h1 id="gitHub">GitHub</h1>
+                <p>
+                    You can view my coding projects on GitHub profile here:
+                    <p class="center"><a href="https://github.com/robg245" target="_blank">Robert Guerrero GitHub</a></p>
+                </p>
+            
+            <!--Right Column-->
+            <div class="Column_2">
+                <a href="https://github.com/robg245" target="blank"><img src="./images/githublogo.png" alt="GitHub Logo"></a>
+                </div>
+            </div> 
+            <!--Contact Session-->
+            <div class="Row" id="Contact">
+                <!--Contact image, left column-->
+                <div class="Column_2 Column_tall">
+                    <img src="./images/pexels-ecrin-7992681.jpg" alt="Contact_Image">
+                </div>
+                <!--Contact form, right column-->
+                <div class="Column_1 Column_tall">
+                    <h1>Contact</h1>
+                    <!--This specifies where and how to send the form data; we are leaving it blank-->
+                    <form action=" " method="POST"></form> <!-- Here we are utilizing a 3rd party service to submit the contact from data, insert your formspree endpoint in the action attribute-->
+                    <label>Name:</label>
+                        <input type="text" placeholder="Please enter your name here">
+                    <label>Email:</label>
+                        <input type="text" id="email" name="Email" placeholder="please enter your email here">
+                    <label>Message:</label>
+                        <input type="text" id="message" name="Message" placeholder="Please write your message here">
+                        <input type="submit" value="submit">
+                </form> 
+                </div>
+            </div>
+            <!--Footer section-->
+            <footer>
+                <p>
+                    <p class="center">&copy Prosper Consulting Inc.,
+                        <a href="https://www.learncodinganywhere.com/" target="_blank">The Tech academy </a></p>
+                        <br>
+                </p>
+            </footer>
+        </body>
+    </head>
+</html>
